@@ -3,7 +3,14 @@ const alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P
 
 
 function init(){
-    const newDiv = document.createElement('div');
-        
+    
+    
+    for(let i = 0 ; i < alphabet.length; i++){
+        const newDiv = document.createElement('div');
+        newDiv.innerHTML = alphabet[i];
+        container.appendChild(newDiv);
+    }
+    
+    
 }
 
