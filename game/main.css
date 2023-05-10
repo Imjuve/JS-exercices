@@ -1,0 +1,42 @@
+#container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    gap: 5px;
+}
+
+#container div{
+    font-size: 2em;
+    font-family: monospace;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    padding: 0.5em;
+    background-color: beige;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#pendu{
+    /* border: 1px solid; */
+    height: fit-content;
+    margin: 40px auto;
+    width: fit-content;
+}
+#score{
+    margin: 15vh auto;
+    /* border: 1px solid; */
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+#score div{
+    width: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textLetter{
+    font-size: 2em;
+}
